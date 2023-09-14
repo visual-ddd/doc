@@ -1,0 +1,23 @@
+{
+  "name": "@visual-ddd-client/doc",
+  "private": true,
+  "version": "0.0.1",
+  "description": "@visual-ddd-client/doc",
+  "scripts": {
+    "start": "vitepress dev docs",
+    "prebuild": "cp ../components/CHANGELOG.md ./docs/base/change-log.md",
+    "postbuild": "imagemin \"./dist/assets/*.png\" --out-dir=./dist/assets",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "imagemin-cli": "^7.0.0",
+    "vitepress": "1.0.0-rc.4"
+  }
+}
