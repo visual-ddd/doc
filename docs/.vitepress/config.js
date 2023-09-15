@@ -61,7 +61,71 @@ export default {
               text: '安装',
               link: '/base/install',
             }
-          ],
+          ], collapsible: true, collapsed: true
+        },
+        {
+          text: '产品概述',
+          items: [
+            { text: '最新动态', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告.md',
+              items: [
+                { text: '功能发布记录', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告/功能发布记录.md'},
+              ]
+            },
+            { text: '产品简介', link: '/base/product/DDD可视化开发平台文档/产品概述/产品简介.md'},
+          ], collapsible: true, collapsed: true
+        },
+
+        {
+          text: '快速入门',
+          items: [
+
+          ], collapsible: true, collapsed: true
+        },
+
+        {
+          text: '操作指南',
+          items: [
+            { text: '业务建模平台', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台.md',
+              items: [
+                { text: '业务建模概述', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务建模概述.md' },
+                { text: '业务场景建模', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模.md',
+                  items: [
+                    { text: '业务流程', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/业务流程.md'},
+                    { text: '服务模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/服务模型.md'},
+                  ], collapsible: true, collapsed: true
+                },
+                { text: '业务域建模', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模.md',
+                  items: [
+                    { text: '需求文档', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/需求文档.md'},
+                    { text: '统一语言', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/统一语言.md'},
+                    { text: '领域模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/领域模型.md'},
+                    { text: '查询模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/查询模型.md'},
+                    { text: '数据模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/数据模型.md'},
+                    { text: '对象映射关系模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/对象映射关系模型.md'},
+                  ], collapsible: true, collapsed: true
+                },
+              ], collapsible: true, collapsed: true
+            },
+            { text: '平台和项目管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理.md',
+              items: [
+                { text: '组织团队管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理.md'},
+                { text: '项目应用管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/项目应用管理.md'},
+              ], collapsible: true, collapsed: true
+            },
+            { text: '应用开发平台', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台.md',
+              items: [
+                { text: '应用开发平台概述', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/应用开发平台概述.md'},
+                { text: '应用管理', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/应用管理.md'},
+              ], collapsible: true, collapsed: true
+            },
+          ], collapsible: true, collapsed: true
+        },
+
+        {
+          text: '最佳实践',
+          items: [
+            { text: '产品概述', link: '/base/product/DDD可视化开发平台文档.md'},
+          ], collapsible: true, collapsed: true
         },
       ],
       "/api/":[]
