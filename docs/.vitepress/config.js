@@ -66,12 +66,12 @@ export default {
         {
           text: '产品概述',
           items: [
+            { text: '产品简介', link: '/base/product/DDD可视化开发平台文档/产品概述/产品简介.md'},
             { text: '最新动态', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告.md',
               items: [
                 { text: '功能发布记录', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告/功能发布记录.md'},
-              ]
+              ], collapsible: true, collapsed: true
             },
-            { text: '产品简介', link: '/base/product/DDD可视化开发平台文档/产品概述/产品简介.md'},
           ], collapsible: true, collapsed: true
         },
 
@@ -124,7 +124,9 @@ export default {
         {
           text: '最佳实践',
           items: [
-            { text: '产品概述', link: '/base/product/DDD可视化开发平台文档.md'},
+            { text: 'DDD产物规范', link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD产物规范.md'},
+            { text: 'DDD可视化平台的DSL设计', link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD可视化平台的DSL设计.md'},
+            { text: '代码生成模块最佳实践', link: '/base/product/DDD可视化开发平台文档/最佳实践/代码生成模块最佳实践.md'},
           ], collapsible: true, collapsed: true
         },
       ],
