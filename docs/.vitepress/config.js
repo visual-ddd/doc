@@ -67,6 +67,7 @@ export default {
           text: '产品概述',
           items: [
             { text: '产品简介', link: '/base/product/DDD可视化开发平台文档/产品概述/产品简介.md'},
+            { text: '平台基础概念', link: '/base/product/DDD可视化开发平台文档/产品概述/平台基础概念.md'},
             { text: '最新动态', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告.md',
               items: [
                 { text: '功能发布记录', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告/功能发布记录.md'},
@@ -85,6 +86,30 @@ export default {
         {
           text: '操作指南',
           items: [
+            { text: '平台和项目管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理.md',
+              items: [
+                { text: '系统管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理.md',
+                  items: [
+                    { text: '组织管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理/组织管理.md'},
+                    { text: '用户管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理/用户管理.md'},
+                  ], collapsible: true, collapsed: true
+                },
+                { text: '组织团队管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理.md',
+                  items: [
+                    { text: '团队管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理/团队管理.md'},
+                    { text: '团队成员管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理/团队成员管理.md'},
+                  ], collapsible: true, collapsed: true
+                },
+                { text: '团队应用管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理.md',
+                  items: [
+                    { text: '统一语言', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/统一语言.md'},
+                    { text: '业务场景管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/业务场景管理.md'},
+                    { text: '业务域管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/业务域管理.md'},
+                  ], collapsible: true, collapsed: true
+                },
+              ], collapsible: true, collapsed: true
+            },
+
             { text: '业务建模平台', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台.md',
               items: [
                 { text: '业务建模概述', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务建模概述.md' },
@@ -106,12 +131,7 @@ export default {
                 },
               ], collapsible: true, collapsed: true
             },
-            { text: '平台和项目管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理.md',
-              items: [
-                { text: '组织团队管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理.md'},
-                { text: '项目应用管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/项目应用管理.md'},
-              ], collapsible: true, collapsed: true
-            },
+
             { text: '应用开发平台', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台.md',
               items: [
                 { text: '应用开发平台概述', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/应用开发平台概述.md'},
