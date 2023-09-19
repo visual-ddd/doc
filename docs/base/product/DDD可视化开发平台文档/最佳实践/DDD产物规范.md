@@ -193,6 +193,6 @@ Language），业务方与技术方通过共同语言描述业务规则与需求
 
 ![image.png](images/20230918_1452314855.png)<br/>
 
-#### 附录
+### 附录
 
 [18 | 知识点串讲：基于DDD的微服务设计实例-极客时间](https://time.geekbang.org/column/article/169881)

@@ -105,6 +105,7 @@ export default {
                     { text: '统一语言', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/统一语言.md'},
                     { text: '业务场景管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/业务场景管理.md'},
                     { text: '业务域管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/业务域管理.md'},
+                    { text: '应用管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/应用管理.md'},
                   ], collapsible: true, collapsed: true
                 },
               ], collapsible: true, collapsed: true
@@ -112,10 +113,10 @@ export default {
 
             { text: '业务建模平台', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台.md',
               items: [
-                { text: '业务建模概述', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务建模概述.md' },
+                { text: '业务建模概述', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务建模平台概述.md' },
                 { text: '业务场景建模', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模.md',
                   items: [
-                    { text: '业务流程', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/业务流程.md'},
+                    { text: '业务流程', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/业务流程图.md'},
                     { text: '服务模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/服务模型.md'},
                   ], collapsible: true, collapsed: true
                 },
@@ -135,7 +136,6 @@ export default {
             { text: '应用开发平台', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台.md',
               items: [
                 { text: '应用开发平台概述', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/应用开发平台概述.md'},
-                { text: '应用管理', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/应用管理.md'},
               ], collapsible: true, collapsed: true
             },
           ], collapsible: true, collapsed: true
