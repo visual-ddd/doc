@@ -41,7 +41,7 @@ export default {
     nav: [
       {
         text: '文档',
-        link: '/base/product/产品简介',
+        link: '/base/product/DDD可视化开发平台文档/产品概述/产品简介.md',
       },
       {
         text: 'API',
@@ -136,6 +136,7 @@ export default {
             { text: '应用开发平台', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台.md',
               items: [
                 { text: '应用开发平台概述', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/应用开发平台概述.md'},
+                { text: 'IDEA插件集成', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/IDEA插件集成.md'},
               ], collapsible: true, collapsed: true
             },
           ], collapsible: true, collapsed: true
