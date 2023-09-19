@@ -41,7 +41,7 @@ export default {
     nav: [
       {
         text: '文档',
-        link: '/base/install',
+        link: '/base/product/产品简介',
       },
       {
         text: 'API',
@@ -68,7 +68,7 @@ export default {
           items: [
             { text: '产品简介', link: '/base/product/DDD可视化开发平台文档/产品概述/产品简介.md'},
             { text: '平台基础概念', link: '/base/product/DDD可视化开发平台文档/产品概述/平台基础概念.md'},
-            { text: '最新动态', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告.md',
+            { text: '最新动态', link: '/base/product/DDD可视化开发平台文档/产品概述/最新动态.md',
               items: [
                 { text: '功能发布记录', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告/功能发布记录.md'},
               ], collapsible: true, collapsed: true
