@@ -1,6 +1,18 @@
 const commonHeads = [
-  ['meta', { name: 'google-site-verification', content: 'JrmhhHwR9CgKUyPUL9cqjJGDpDnK_E72RP0tK8OwNBs' }],
-  ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/viewerjs@1.10.5/dist/viewer.min.css' }],
+  [
+    'meta',
+    {
+      name: 'google-site-verification',
+      content: 'JrmhhHwR9CgKUyPUL9cqjJGDpDnK_E72RP0tK8OwNBs',
+    },
+  ],
+  [
+    'link',
+    {
+      rel: 'stylesheet',
+      href: 'https://cdn.jsdelivr.net/npm/viewerjs@1.10.5/dist/viewer.min.css',
+    },
+  ],
   [
     'script',
     {
@@ -50,108 +62,216 @@ export default {
       {
         text: '变更记录',
         link: '/base/change-log',
-      }
+      },
     ],
     sidebar: {
       '/': [
         {
-          text: '开始',
-          items: [
-            {
-              text: '安装',
-              link: '/base/install',
-            }
-          ], collapsible: true, collapsed: true
-        },
-        {
           text: '产品概述',
           items: [
-            { text: '产品简介', link: '/base/product/DDD可视化开发平台文档/产品概述/产品简介.md'},
-            { text: '平台基础概念', link: '/base/product/DDD可视化开发平台文档/产品概述/平台基础概念.md'},
-            { text: '最新动态', link: '/base/product/DDD可视化开发平台文档/产品概述/最新动态.md',
-              items: [
-                { text: '功能发布记录', link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告/功能发布记录.md'},
-              ], collapsible: true, collapsed: true
+            {
+              text: '产品简介',
+              link: '/base/product/DDD可视化开发平台文档/产品概述/产品简介.md',
             },
-          ], collapsible: true, collapsed: true
+            {
+              text: '平台基础概念',
+              link: '/base/product/DDD可视化开发平台文档/产品概述/平台基础概念.md',
+            },
+            {
+              text: '最新动态',
+              link: '/base/product/DDD可视化开发平台文档/产品概述/最新动态.md',
+              items: [
+                {
+                  text: '功能发布记录',
+                  link: '/base/product/DDD可视化开发平台文档/产品概述/产品公告/功能发布记录.md',
+                },
+              ],
+              collapsible: true,
+              collapsed: true,
+            },
+          ],
+          collapsible: true,
+          collapsed: true,
         },
 
         {
           text: '快速入门',
-          items: [
-
-          ], collapsible: true, collapsed: true
+          items: [],
+          collapsible: true,
+          collapsed: true,
         },
 
         {
           text: '操作指南',
           items: [
-            { text: '平台和项目管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理.md',
+            {
+              text: '平台和项目管理',
+              link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理.md',
               items: [
-                { text: '系统管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理.md',
+                {
+                  text: '系统管理',
+                  link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理.md',
                   items: [
-                    { text: '组织管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理/组织管理.md'},
-                    { text: '用户管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理/用户管理.md'},
-                  ], collapsible: true, collapsed: true
+                    {
+                      text: '组织管理',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理/组织管理.md',
+                    },
+                    {
+                      text: '用户管理',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/系统管理/用户管理.md',
+                    },
+                  ],
+                  collapsible: true,
+                  collapsed: true,
                 },
-                { text: '组织团队管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理.md',
+                {
+                  text: '组织团队管理',
+                  link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理.md',
                   items: [
-                    { text: '团队管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理/团队管理.md'},
-                    { text: '团队成员管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理/团队成员管理.md'},
-                  ], collapsible: true, collapsed: true
+                    {
+                      text: '团队管理',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理/团队管理.md',
+                    },
+                    {
+                      text: '团队成员管理',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/组织团队管理/团队成员管理.md',
+                    },
+                  ],
+                  collapsible: true,
+                  collapsed: true,
                 },
-                { text: '团队应用管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理.md',
+                {
+                  text: '团队应用管理',
+                  link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理.md',
                   items: [
-                    { text: '统一语言', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/统一语言.md'},
-                    { text: '业务场景管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/业务场景管理.md'},
-                    { text: '业务域管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/业务域管理.md'},
-                    { text: '应用管理', link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/应用管理.md'},
-                  ], collapsible: true, collapsed: true
+                    {
+                      text: '统一语言',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/统一语言.md',
+                    },
+                    {
+                      text: '业务场景管理',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/业务场景管理.md',
+                    },
+                    {
+                      text: '业务域管理',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/业务域管理.md',
+                    },
+                    {
+                      text: '应用管理',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/平台和项目管理/团队应用管理/应用管理.md',
+                    },
+                  ],
+                  collapsible: true,
+                  collapsed: true,
                 },
-              ], collapsible: true, collapsed: true
+              ],
+              collapsible: true,
+              collapsed: true,
             },
 
-            { text: '业务建模平台', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台.md',
+            {
+              text: '业务建模平台',
+              link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台.md',
               items: [
-                { text: '业务建模概述', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务建模平台概述.md' },
-                { text: '业务场景建模', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模.md',
-                  items: [
-                    { text: '业务流程', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/业务流程图.md'},
-                    { text: '服务模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/服务模型.md'},
-                  ], collapsible: true, collapsed: true
+                {
+                  text: '业务建模概述',
+                  link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务建模平台概述.md',
                 },
-                { text: '业务域建模', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模.md',
+                {
+                  text: '业务场景建模',
+                  link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模.md',
                   items: [
-                    { text: '需求文档', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/需求文档.md'},
-                    { text: '统一语言', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/统一语言.md'},
-                    { text: '领域模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/领域模型.md'},
-                    { text: '查询模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/查询模型.md'},
-                    { text: '数据模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/数据模型.md'},
-                    { text: '对象映射关系模型', link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/对象映射关系模型.md'},
-                  ], collapsible: true, collapsed: true
+                    {
+                      text: '业务流程',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/业务流程图.md',
+                    },
+                    {
+                      text: '服务模型',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务场景建模/服务模型.md',
+                    },
+                  ],
+                  collapsible: true,
+                  collapsed: true,
                 },
-              ], collapsible: true, collapsed: true
+                {
+                  text: '业务域建模',
+                  link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模.md',
+                  items: [
+                    {
+                      text: '需求文档',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/需求文档.md',
+                    },
+                    {
+                      text: '统一语言',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/统一语言.md',
+                    },
+                    {
+                      text: '领域模型',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/领域模型.md',
+                    },
+                    {
+                      text: '查询模型',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/查询模型.md',
+                    },
+                    {
+                      text: '数据模型',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/数据模型.md',
+                    },
+                    {
+                      text: '对象映射关系模型',
+                      link: '/base/product/DDD可视化开发平台文档/操作指南/业务建模平台/业务域建模/对象映射关系模型.md',
+                    },
+                  ],
+                  collapsible: true,
+                  collapsed: true,
+                },
+              ],
+              collapsible: true,
+              collapsed: true,
             },
 
-            { text: '应用开发平台', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台.md',
+            {
+              text: '应用开发平台',
+              link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台.md',
               items: [
-                { text: '应用开发平台概述', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/应用开发平台概述.md'},
-                { text: 'IDEA插件集成', link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/IDEA插件集成.md'},
-              ], collapsible: true, collapsed: true
+                {
+                  text: '应用开发平台概述',
+                  link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/应用开发平台概述.md',
+                },
+                {
+                  text: 'IDEA插件集成',
+                  link: '/base/product/DDD可视化开发平台文档/操作指南/应用开发平台/IDEA插件集成.md',
+                },
+              ],
+              collapsible: true,
+              collapsed: true,
             },
-          ], collapsible: true, collapsed: true
+          ],
+          collapsible: true,
+          collapsed: true,
         },
 
         {
           text: '最佳实践',
           items: [
-            { text: 'DDD产物规范', link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD产物规范.md'},
-            { text: 'DDD可视化平台的DSL设计', link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD可视化平台的DSL设计.md'},
-            { text: '代码生成模块最佳实践', link: '/base/product/DDD可视化开发平台文档/最佳实践/代码生成模块最佳实践.md'},
-          ], collapsible: true, collapsed: true
+            {
+              text: 'DDD产物规范',
+              link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD产物规范.md',
+            },
+            {
+              text: 'DDD可视化平台的DSL设计',
+              link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD可视化平台的DSL设计.md',
+            },
+            {
+              text: '代码生成模块最佳实践',
+              link: '/base/product/DDD可视化开发平台文档/最佳实践/代码生成模块最佳实践.md',
+            },
+          ],
+          collapsible: true,
+          collapsed: true,
         },
       ],
-      "/api/":[]
+      '/api/': [],
     },
     socialLinks: [
       {

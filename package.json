@@ -19,5 +19,8 @@
   "devDependencies": {
     "imagemin-cli": "^7.0.0",
     "vitepress": "1.0.0-rc.4"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
   }
 }
