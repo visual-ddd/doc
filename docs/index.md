@@ -12,8 +12,11 @@ hero:
       text: 开始使用
       link: /base/install
 features:
-  - icon: 🚀
-    title: 高效 CRUD
+  - title: 架构设计可视化
+    details: 标准化架构设计流程和设计组件。通过托拉拽的方式来进行架构设计，使开发人员能够更直观的理解和管理系统，更容易识别代码间的依赖关系
+  - title: 低代码平台
+    details: 通过领域模型图自动生成80%以上的代码，丰富的组件库。让你可以在几分钟完成一个新的业务模块的编码。
+  - title: 高效 CRUD
     details: 留多点时间，做真正有价值的事情
 ---
 

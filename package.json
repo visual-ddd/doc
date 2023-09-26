@@ -18,9 +18,12 @@
   "license": "MIT",
   "devDependencies": {
     "imagemin-cli": "^7.0.0",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.2",
     "vitepress": "1.0.0-rc.4"
   },
   "dependencies": {
+    "element-plus": "^2.3.14",
     "vue": "^3.3.4"
   }
 }
