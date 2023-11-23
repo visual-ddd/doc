@@ -71,7 +71,7 @@ export default {
           items: [
             {
               text: '欢迎使用Visal-DDD',
-              link: '/base/product/DDD可视化开发平台文档/产品概述/欢迎使用Visal-DDD.md'
+              link: '/base/product/DDD可视化开发平台文档/产品概述/欢迎使用Visual-DDD.md'
             },
             {
               text: '产品简介',

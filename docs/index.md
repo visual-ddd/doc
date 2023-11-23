@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /base/install
+      link: /base/product/DDD可视化开发平台文档/产品概述/欢迎使用Visual-DDD.md
 features:
   - title: 架构设计可视化
     details: 标准化架构设计流程和设计组件。通过托拉拽的方式来进行架构设计，使开发人员能够更直观的理解和管理系统，更容易识别代码间的依赖关系
