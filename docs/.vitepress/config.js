@@ -100,7 +100,11 @@ export default {
 
         {
           text: '快速入门',
-          items: [],
+          items: [
+            {
+              text: '部署文档',
+              link: '/base/product/DDD可视化开发平台文档/快速入门/部署文档.md'
+            }],
           collapsible: true,
           collapsed: true,
         },
