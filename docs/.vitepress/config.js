@@ -104,7 +104,52 @@ export default {
             {
               text: '部署文档',
               link: '/base/product/DDD可视化开发平台文档/快速入门/部署文档.md'
-            }],
+            },
+            {
+              text: '快速入门概述',
+              link: '/base/product/DDD可视化开发平台文档/快速入门/快速入门概述.md'
+            },{
+                text: '示例项目',
+                items:[
+                  {
+                    text:'示例项目简介',
+                    link: '/base/product/DDD可视化开发平台文档/快速入门/示例项目/示例项目简介.md'
+                  },
+                  {
+                    text: '示例项目的使用限制说明',
+                    link: '/base/product/DDD可视化开发平台文档/快速入门/示例项目/示例项目限制说明.md'
+                  },
+                  {
+                    text: '步骤一：业务场景分析',
+                    link: '/base/product/DDD可视化开发平台文档/快速入门/示例项目/步骤一：业务场景分析.md'
+                  },
+                  {
+                    text: '步骤二：场景过程分析',
+                    link: '/base/product/DDD可视化开发平台文档/快速入门/示例项目/步骤二：场景过程分析.md'
+                  },
+                  {
+                    text: '步骤三：领域建模',
+                    link: '/base/product/DDD可视化开发平台文档/快速入门/示例项目/步骤三：领域建模.md'
+                  },
+                  {
+                    text: '步骤四：设计评审与校验',
+                    link: '/base/product/DDD可视化开发平台文档/快速入门/示例项目/步骤四：设计评审与校验.md'
+                  },
+                  {
+                    text: '步骤五：模型即代码',
+                    link: '/base/product/DDD可视化开发平台文档/快速入门/示例项目/步骤五：模型即代码.md'
+                  },
+
+                  {
+                    text: '步骤六：AI辅助编码',
+                    link: '/base/product/DDD可视化开发平台文档/快速入门/示例项目/步骤六：AI辅助编码.md'
+                  }
+                ],
+                collapsible: true,
+                collapsed: true,
+            }
+
+            ],
           collapsible: true,
           collapsed: true,
         },
