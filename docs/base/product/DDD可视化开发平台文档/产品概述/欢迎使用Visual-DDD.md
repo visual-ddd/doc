@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 <br />
+
 <div align="center">
   <a href="https://github.com/carlrobertoh/CodeGPT">
     <img alt="plugin-icon" src="./pluginIcon.svg">
@@ -59,4 +60,4 @@ Visual DDD不仅仅是一个工具，它是你走向卓越设计的助推器。�
 <br/>
 
 **欢迎加入我们**
-![1702279915006](images/1702279915006.png)
+![1703833467613](images/1703833467613.png)
