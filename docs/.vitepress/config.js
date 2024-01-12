@@ -307,10 +307,10 @@ export default {
         {
           text: '最佳实践',
           items: [
-            {
-              text: 'DDD产物规范',
-              link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD产物规范.md',
-            },
+            // {
+            //   text: 'DDD产物规范',
+            //   link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD产物规范.md',
+            // },
             {
               text: 'DDD可视化平台的DSL设计',
               link: '/base/product/DDD可视化开发平台文档/最佳实践/DDD可视化平台的DSL设计.md',
