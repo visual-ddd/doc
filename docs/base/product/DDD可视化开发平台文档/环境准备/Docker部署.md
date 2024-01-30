@@ -10,6 +10,9 @@ GitHub地址：[Docker部署DDD可视化开发者平台](https://github.com/visu
    如果尚未安装，请按照[官方文档](https://docs.docker.com/engine/install/centos/)进行安装。
 
 2. 拉取项目：通过git拉取本项目到部署环境下。
+```shell
+git clone git@github.com:visual-ddd/visual-ddd-docker.git
+```
 
 ## 部署步骤
 
