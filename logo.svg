@@ -1,0 +1,53 @@
+<svg viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <ellipse id="ec20f93b-104a-49c8-ad8c-e24fee2a008e" cx="94.674" cy="61" rx="7.188" ry="7.2"></ellipse>
+    <path
+      d="M67.52 32.2l23.907 0c-0.411 6.254 -5.606 11.2 -11.953 11.2c-6.348 0 -11.542 -4.946 -11.953 -11.2z"
+      id="e70e26e3-c8af-4c79-8f8b-9f4e23bb7b1a"></path>
+    <ellipse id="659415e7-f1ec-4f25-a044-0f8ff899bc98" cx="105.854" cy="85" rx="7.188" ry="7.2"></ellipse>
+  </defs>
+  <g id="root" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <path
+      d="M79.5 53l-28.75 16l0 16l-28.75 0l0 -32l28.75 -16l28.75 -16l28.75 16l28.75 16l0 32l-28.75 0l0 -16l-28.75 -16zm0 64l-28.75 -16l28.75 -16l28.75 16l-28.75 16z"
+      id="shape.primary" fill="#555273"></path>
+    <path
+      d="M50.75 69l0 -32l28.75 16l0 32l-28.75 -16zm57.5 32l-28.75 -16l28.75 -16l28.75 16l-28.75 16z"
+      id="shape.accent" fill="#b6d5e1"></path>
+    <path
+      d="M108.25 69l-28.75 16l0 -32l28.75 -16l0 32zm-57.5 32l-28.75 -16l28.75 -16l28.75 16l-28.75 16z"
+      id="shape.secondary" fill="#65799b"></path>
+    <path
+      d="M65.125 68.2c-3.97 0 -7.188 -3.224 -7.188 -7.2c0 -3.976 3.218 -7.2 7.188 -7.2c3.97 0 7.188 3.224 7.188 7.2c0 3.976 -3.218 7.2 -7.188 7.2zm-14.375 24c-3.97 0 -7.188 -3.224 -7.188 -7.2c0 -3.976 3.218 -7.2 7.188 -7.2c3.97 0 7.188 3.224 7.188 7.2c0 3.976 -3.218 7.2 -7.188 7.2z"
+      id="shape" fill="#FFF"></path>
+    <path
+      d="M65.524 61c-1.984 0 -3.593 -1.612 -3.593 -3.6c0 -1.988 1.609 -3.6 3.593 -3.6c1.985 0 3.594 1.612 3.594 3.6c0 1.988 -1.609 3.6 -3.594 3.6zm-14.774 28c-2.205 0 -3.993 -1.79 -3.993 -4c0 -2.21 1.788 -4 3.993 -4c2.205 0 3.993 1.79 3.993 4c0 2.21 -1.788 4 -3.993 4z"
+      id="shape" fill="#000"></path>
+    <mask id="b3ea6cd3-7c3c-42b9-b8de-e3e43c87ea7b" fill="#fff">
+      <use xlink:href="#ec20f93b-104a-49c8-ad8c-e24fee2a008e"></use>
+    </mask>
+    <use id="shape" fill="#FFF" xlink:href="#ec20f93b-104a-49c8-ad8c-e24fee2a008e"></use>
+    <ellipse id="shape" fill="#000" mask="url(#b3ea6cd3-7c3c-42b9-b8de-e3e43c87ea7b)" cx="94.674"
+      cy="62.6" rx="2.396" ry="2.4"></ellipse>
+    <rect id="shape" fill="#FF8A8A" mask="url(#b3ea6cd3-7c3c-42b9-b8de-e3e43c87ea7b)" x="85.889"
+      y="53" width="16.771" height="9.6"></rect>
+    <mask id="6b209679-5cea-4d3b-acf5-c19250cbe857" fill="#fff">
+      <use xlink:href="#e70e26e3-c8af-4c79-8f8b-9f4e23bb7b1a"></use>
+    </mask>
+    <use id="shape" fill="#000" xlink:href="#e70e26e3-c8af-4c79-8f8b-9f4e23bb7b1a"></use>
+    <ellipse id="shape" fill="#FF5A5A" mask="url(#6b209679-5cea-4d3b-acf5-c19250cbe857)" cx="81.896"
+      cy="42.2" rx="7.986" ry="4.4"></ellipse>
+    <mask id="134bd5aa-1f34-485f-abaf-957954968fb7" fill="#fff">
+      <use xlink:href="#659415e7-f1ec-4f25-a044-0f8ff899bc98"></use>
+    </mask>
+    <use id="shape" fill="#FFF" xlink:href="#659415e7-f1ec-4f25-a044-0f8ff899bc98"></use>
+    <rect id="shape" fill="#000" mask="url(#134bd5aa-1f34-485f-abaf-957954968fb7)" x="98.667" y="77"
+      width="7.188" height="16"></rect>
+    <g id="Group" transform="translate(8.000000, 120.000000)">
+      <rect id="Rectangle-81" x="0" y="0" width="144" height="22"></rect>
+      <text id="headerText" font-family="Dosis" font-size="20" font-weight="800" line-spacing="20"
+        fill="#000" data-text-alignment="c" font-style="normal">
+        <tspan x="72" y="111"></tspan>
+      </text>
+    </g>
+  </g>
+</svg>
